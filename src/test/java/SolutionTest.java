@@ -17,4 +17,10 @@ public class SolutionTest {
         Assert.assertEquals(output, new Solution().findNumberOfLIS(nums));
     }
 
+    @Test
+    public void findNumberOfLISTest3() {
+        int[] nums = {1, 2, 4, 3, 5, 4, 7, 2};
+        int output = 3;
+        Assert.assertEquals(output, new Solution().findNumberOfLIS(nums));
+    }
 }
